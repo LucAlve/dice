@@ -8,7 +8,7 @@ document.querySelectorAll("img")[1].setAttribute("src", "images/dice"+secondRand
 
 if (randomNumber > secondRandomNumber) {
 // professors way
-  document.querySelector("h1")[0].innerHTML = "Player 1 wins";
+  document.querySelector("h1").innerHTML = "Player 1 wins";
 } else if (secondRandomNumber > randomNumber) {
   document.getElementsByTagName("h1")[0].innerText = "Player 2 wins";
 } else {
